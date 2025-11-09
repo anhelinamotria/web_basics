@@ -1,46 +1,20 @@
-h1 {text-align: center; color:red}
 i, em, span, b, strong {
     color: green;
     text-decoration: underline;
 }
 
 ol, ul {
-    border: 1px solid lightcoral;
+    border: 1 px solid lightcoral;
 }
 
 img {
-    width: 100%;
-    max-width: 100%;
+    width: 100;
+    max-width: 100;
 }
 
-/* По горизонталі центруємо заголовок */
-.page-title {
-  text-align: center;
-  color: #c41818;
-  margin: 24px 0;
-  font-size: 1.8rem;
-}
-
-/* Фіксоване посилання внизу ліворуч (якщо потрібно) */
-.home-link {
-  position: fixed;
-  left: 12px;
-  bottom: 12px;
-  background: rgba(255,255,255,0.9);
-  padding: 6px 10px;
-  border-radius: 6px;
-  color: #2a2aff;
-  text-decoration: none;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  z-index: 1000;
-}
-
-/* Якщо потрібно центрувати заголовок і весь контент по вертикалі у вікні,
-   додайте клас center-viewport до <body> у about.html */
-.center-viewport {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+img {
+  display: block;
+  max-width: 100;
+  height: auto;
+  margin: 0 auto;
 }
